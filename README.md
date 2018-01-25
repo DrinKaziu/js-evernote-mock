@@ -1,5 +1,5 @@
 Backend Changes/Tips
- * Make change to notes private params - should be able to accept a user_id param
+ * Make change to notes controller's strong params - should be able to accept a user_id param
  * Run your migrations (tables already created)
  * Seed your backend (data exists in seed file)
  * Start your server
