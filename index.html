@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>EverNote</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <h2> EverNote </h2>
+    <div class='row'>
+
+    <div class='col-md-4'>
+      <ul class="note-list" id="note-list">
+      </ul>
+    </div>
+
+    <div class='col-md-8'>
+      <h2>My Note</h2>
+      <div id="note-info">
+      </div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-4'>
+    </div>
+    <div class='col-md-4'>
+    <form id="new-comment-form">
+      <label> Title </label>
+      <input name='title' id='title'/><br>
+      <label> Body </label>
+      <textarea name='body' id='body'> </textarea>
+      <button id='submit-btn'> Create Comment </button>
+    </form>
+    </div>
+    <div class='col-md-4'>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src='src/index.js'></script>
+  </body>
+</html>
