@@ -2,6 +2,7 @@ Backend Changes/Tips
  * Make change to notes private params - should be able to accept a user_id param
  * Run your migrations (tables already created)
  * Seed your backend (data exists in seed file)
+ * Start your server
 
 FrontEnd
 * A user should be able to display all their notes- a note should render like
