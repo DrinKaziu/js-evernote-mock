@@ -1,0 +1,28 @@
+#note-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#new-comment-form {
+  background-color: #9354ad;
+  border: solid black 7px;
+  color: black;
+  align-content: center;
+}
+
+.note-card {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  border: solid black 7px;
+  overflow: scroll;
+  background-color: #DAF7A6;
+  color: black;
+}
+
+body {
+    background-color: #900C3F;
+    color: white;
+    text-align: center;
+}

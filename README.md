@@ -4,7 +4,11 @@ Backend Changes/Tips
  * Seed your backend (data exists in seed file)
 
 FrontEnd
-* A user should be able to display all their notes
+* A user should be able to display all their notes- a note should render like
+`<div class='note-card'>
+<h3> Title </h3>
+<p> Body </p>
+</div>`
 * A user can click on a note title and reveal the full preview of their notes
 * A user can create a note which appears on the note list and persists when a page reloads
 
